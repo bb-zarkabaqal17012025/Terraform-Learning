@@ -13,7 +13,7 @@ provider "aws" {
 
 }
 
-resource "aws_instance" "zarka-server" {
+resource "aws_instance" "zarka-server-tf" {
   ami = "ami-05c179eced2eb9b5b"
   instance_type = "t3.nano"
   tags = {
