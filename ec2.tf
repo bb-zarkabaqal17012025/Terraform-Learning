@@ -17,7 +17,7 @@ resource "aws_instance" "zarka-server" {
   ami = "ami-05c179eced2eb9b5b"
   instance_type = "t3.nano"
   tags = {
-    Name  = "zarka-server"
+    Name  = "zarka-server-tf"
     team  = "Cloudnauts"
     Owner = "zarka.baqal@bigbasket.com"
   }
